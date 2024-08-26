@@ -5,8 +5,8 @@ import  ProjectCard  from "@/components/projectCard";
 
 export default function Home() {
   return (
-		<main className="flex flex-col items-center justify-between mx-auto ">
-			<div className="bg-gray w-1/2 h-[400px] rounded-lg p-8 shadow-2xl border border-tertiary mt-4 mb-20">
+		<main className=" mx-auto min-h-screen max-w-screen-xl px-6 py-12  ">
+			<div className="bg-gray  h-[400px] rounded-lg p-8 shadow-2xl border border-tertiary mt-4 mb-20">
 				<div className="flex">
 					<div className="w-1/2">
 						<h1 className="text-6xl font-bold font-display">Zavier Lowe</h1>
