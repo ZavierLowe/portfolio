@@ -18,12 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #272826;
 }
 
 @layer utilities {
@@ -31,3 +26,23 @@ body {
     text-wrap: balance;
   }
 }
+
+  
+@font-face {
+    font-family: 'Blauer';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/BlauerNue-Regular.woff2) format('woff2');
+  }
+
+
+
+
+@font-face {
+    font-family: 'Bomstad';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/BomstadDisplay-Regular.woff2) format('woff2');
+  }
