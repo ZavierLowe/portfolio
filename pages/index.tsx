@@ -4,17 +4,19 @@ import Marquee from "../components/marquee/Marquee";
 import Navi from "../components/Navigation/Navi";
 import FooterMain from "../components/FooterMain";
 import PlayGroundMain from "../components/PlayGroundMain";
-import ProjectGrid from "../components/ProjectGrid";
+import ProjectGrid from "../components/Projects/ProjectGrid";
 import HeroMain from "../components/Hero/HeroMain";
 import SocialImage from "../assets/images/Settings Page.png";
 import Image from "next/image";
 import { useState } from "react";
 import MobileNav from "../components/MobileNav";
-import ProjectGridWide from "../components/ProjectGridWide";
+import ProjectGridWide from "../components/Projects/ProjectGridWide";
 import { headers } from "next/headers";
 import Navigation from "../components/Navigation/Navigation";
 import { Grain } from "../components/Grain.styled";
 import HeroSection from "../components/Hero/HeroSection";
+import WorkGrid from "../components/Projects/WorkGrid";
+import ProfileCard from "../components/Profile/profileCard"
 
 const Home: NextPage = () => {
 	return (
@@ -26,34 +28,27 @@ const Home: NextPage = () => {
 			</Head>
 
 			<div>
-				
-				<div className="page-wrapper"> 
+				<div className="page-wrapper">
+					<div className="">
+						{/* <Navi /> */}
+						<Navi/>
+						{/* <ProfileCard/> */}
+						{/* <MobileNav /> */}
+						{/* Hero Section */}
+						<HeroSection />
+						<Marquee />
+						{/* Project Grid */}
+						<ProjectGridWide/>
+						<WorkGrid/>
+						{/* <ProjectGrid /> */}
+						{/* Playground Section */}
+						<PlayGroundMain />
+						{/*  Footer  */}
 
-				<div className="">
-
-
-				{/* <Navi /> */}
-				<Navigation/>
-				{/* <MobileNav /> */}
-				{/* Hero Section */}
-				<HeroSection/>
-				<Marquee />
-				{/* Project Grid */}
-				{/* <ProjectGridWide/> */}
-				<ProjectGrid />
-				{/* Playground Section */}
-				<PlayGroundMain />
-				{/*  Footer  */}
-
-				<FooterMain />
-				{/* <FooterNew /> */}
+						<FooterMain />
+						{/* <FooterNew /> */}
+					</div>
 				</div>
-				
-				</div>
-				
-				
-
-				
 			</div>
 		</div>
 	);

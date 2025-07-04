@@ -1,10 +1,11 @@
 .marqueeSection {
     background-color:  rgba(248, 240, 227, 0.7);
-    overflow: hidden;
+    overflow:visible ;
     padding: 20px 20px;
-    border-bottom: 1px solid #4960F7;
-    border-top: 1px solid #4960F7;
+    
     backdrop-filter: blur(130px);
+    
+    
     
 }
 @media screen and (min-width: 1025px) {
@@ -49,6 +50,7 @@
     animation-play-state: running;
     will-change: transform;
     animation-direction: normal;
+    opacity: .8;
 }
 .marqueeSection__text {
     font-family: "ClashDisplay-Variable", sans-serif;
@@ -72,15 +74,17 @@
 
 @media screen and (min-width: 750px) {
     .marqueeSection {
-        border: 1px solid #252521;
+    color: #252521;
     }
 }
 /*! CSS Used keyframes */
 @keyframes marquee-section {
     0% {
         transform: translateX(-100%);
+        opacity: .9;
     }
     to {
         transform: translateX(0);
+        opacity: 1;
     }
 }

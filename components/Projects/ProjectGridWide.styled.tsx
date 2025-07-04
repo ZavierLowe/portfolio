@@ -8,8 +8,7 @@ interface LinkProps{
 
 export const CardGridWide = styled.div`
 	margin-top: 140px;
-	margin-bottom: 140px;
-
+	
 	@media (max-width: 428px) {
 		width: 100%;
 		
@@ -20,7 +19,7 @@ export const CardGridWideHeadingWrapper = styled.div`
 	font-family: "ClashDisplay-Variable", sans-serif;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: end;
 	margin: 12px 0px;
 	opacity: 1;
 	&:hover {

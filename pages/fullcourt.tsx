@@ -26,11 +26,13 @@ import FullcourtPreview from "../assets/images/Fullcourt Preview.png";
 import FullcourtScreen from "../assets/images/Fullcourt-Screen.png";
 import FullcourtScreenSM from "../assets/images/Fullcourt-ScreenSM.png";
 import FullcourtScreenDetails from "../assets/images/Fullcourt-ScreenSM-GroupDetails.png";
+import Navigation from "../components/Navigation/Navigation";
 
 const fullcourt = () => {
 	return (
 		<div>
-			<Navi />
+			<Navigation/>
+			
 			<MobileNav />
 
 			<ProjectHeadingSection backgroundColor="none">

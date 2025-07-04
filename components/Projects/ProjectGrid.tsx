@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "./container.styled";
+import { Container } from "../container.styled";
 import { CardGrid } from "./cardGrid.styled";
 import {
 	Card,
@@ -8,7 +8,7 @@ import {
 	CardMeta,
 	CardText,
 	CardWrapper,
-} from "./Card.styled";
+} from "../Card.styled";
 import DelphicPreview from "../assets/images/DelphicPreview.png";
 import MacbookDelphic from "../assets/images/Macbook Pro Delphic.png";
 import DelphicPreviewNew from "../assets/images/DelphicPreviewNew.png";

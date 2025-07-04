@@ -1,6 +1,6 @@
 .hero{
     font-family: "ClashDisplay-Variable", sans-serif;
-    height: 700px;
+    height: 800px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -29,6 +29,11 @@
 	@media (max-width: 428px) {
 		font-size: 2.5em;
 	}
+}
+
+.heroLine{
+	margin-top: -18px;
+	z-index: -4;
 }
 
 .description{
